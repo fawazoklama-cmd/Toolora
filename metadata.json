@@ -1,0 +1,6 @@
+{
+  "name": "Toolora - All Tools in One Place",
+  "description": "Platform kumpulan alat online praktis untuk kebutuhan sehari-hari, pelajar, kreator konten, dan developer. Everything You Need, One Place.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,88 @@
+import { CategoryInfo } from '../types';
+
+export const CATEGORIES: CategoryInfo[] = [
+  {
+    id: 'math',
+    name: 'Kalkulator & Matematika',
+    slug: 'math',
+    description: 'Alat hitung matematika praktis, kalkulator standar, persentase, geometri, dan pembagian tagihan.',
+    icon: 'Calculator',
+  },
+  {
+    id: 'text',
+    name: 'Teks & Penulisan',
+    slug: 'text',
+    description: 'Penghitung kata, konverter huruf besar/kecil, pembersih spasi, perapih baris, dan generator teks.',
+    icon: 'Type',
+  },
+  {
+    id: 'developer',
+    name: 'Developer & Koding',
+    slug: 'developer',
+    description: 'JSON formatter, Base64 encoder/decoder, URL encoder, UUID generator, Regex tester, dan JWT decoder.',
+    icon: 'Code2',
+  },
+  {
+    id: 'security',
+    name: 'Keamanan & Kripto',
+    slug: 'security',
+    description: 'Password generator aman, penghitung kekuatan sandi, generator PIN, hash SHA-256, dan token.',
+    icon: 'ShieldCheck',
+  },
+  {
+    id: 'design',
+    name: 'Desain & Warna',
+    slug: 'design',
+    description: 'Color picker, konversi HEX ke RGB, generator palette, CSS gradient, shadow, dan cek kontras WCAG.',
+    icon: 'Palette',
+  },
+  {
+    id: 'converter',
+    name: 'Konverter Satuan',
+    slug: 'converter',
+    description: 'Konversi satuan panjang, berat, suhu, kecepatan, data digital, dan konversi bilangan desimal-biner-heksa.',
+    icon: 'ArrowLeftRight',
+  },
+  {
+    id: 'image',
+    name: 'Gambar & Media',
+    slug: 'image',
+    description: 'Resize, kompres gambar, crop, konversi WebP/PNG/JPEG, dan inspeksi dimensi secara lokal di browser.',
+    icon: 'Image',
+  },
+  {
+    id: 'social',
+    name: 'Media Sosial & Kreatif',
+    slug: 'social',
+    description: 'Generator bio, username, caption, fancy text aesthetic, hashtag, dan generator QR Code interaktif.',
+    icon: 'Share2',
+  },
+  {
+    id: 'file',
+    name: 'File & Dokumen',
+    slug: 'file',
+    description: 'CSV viewer tabel, JSON viewer, konverter teks ke file TXT/CSV, text merger, dan kalkulator ukuran file.',
+    icon: 'FileText',
+  },
+  {
+    id: 'datetime',
+    name: 'Tanggal & Waktu',
+    slug: 'datetime',
+    description: 'Hitung usia akurat, selisih dua tanggal, countdown timer, stopwatch, dan konversi Unix timestamp.',
+    icon: 'Clock',
+  },
+  {
+    id: 'finance',
+    name: 'Keuangan & Bisnis',
+    slug: 'finance',
+    description: 'Kalkulator diskon, margin keuntungan, markup, pembagi pengeluaran, dan kalkulator target tabungan.',
+    icon: 'Coins',
+  },
+  {
+    id: 'generators',
+    name: 'Generator Acak',
+    slug: 'generators',
+    description: 'Pemilih nama acak, generator pembagian tim, angka acak, pemilih keputusan cepat, dan nama proyek.',
+    icon: 'Dices',
+  },
+];
